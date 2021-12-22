@@ -11,6 +11,7 @@
 		5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3955277319CD00EB5845 /* ContentView.swift */; };
 		5CEE3958277319CE00EB5845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE3957277319CE00EB5845 /* Assets.xcassets */; };
 		5CEE395B277319CE00EB5845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE395A277319CE00EB5845 /* Preview Assets.xcassets */; };
+		5CEE3962277319D800EB5845 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3961277319D800EB5845 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5CEE3955277319CD00EB5845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CEE3957277319CE00EB5845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CEE395A277319CE00EB5845 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CEE3961277319D800EB5845 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */,
 				5CEE3955277319CD00EB5845 /* ContentView.swift */,
+				5CEE3961277319D800EB5845 /* LoginView.swift */,
 				5CEE3957277319CE00EB5845 /* Assets.xcassets */,
 				5CEE3959277319CE00EB5845 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEE3962277319D800EB5845 /* LoginView.swift in Sources */,
 				5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */,
 				5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */,
 			);
