@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7BB1277E2AC600A75897 /* AirtagView.swift */; };
 		5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCC44A277472B400ED40CD /* PlaceList.swift */; };
 		5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */; };
 		5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3955277319CD00EB5845 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5B7BB1277E2AC600A75897 /* AirtagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtagView.swift; sourceTree = "<group>"; };
 		5CCCC44A277472B400ED40CD /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 		5CEE3950277319CD00EB5845 /* DesignRemakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignRemakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRemakesApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				5CEE3955277319CD00EB5845 /* ContentView.swift */,
 				5CEE3961277319D800EB5845 /* LoginView.swift */,
 				5CCCC44A277472B400ED40CD /* PlaceList.swift */,
+				5C5B7BB1277E2AC600A75897 /* AirtagView.swift */,
 				5CEE3957277319CE00EB5845 /* Assets.xcassets */,
 				5CEE3959277319CE00EB5845 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				5CEE3962277319D800EB5845 /* LoginView.swift in Sources */,
 				5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */,
 				5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */,
+				5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */,
 				5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
