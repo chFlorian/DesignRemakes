@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1D9F0027809E3D0077B8CC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFD27809E3D0077B8CC /* Post.swift */; };
+		5C1D9F0127809E3D0077B8CC /* RedditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFE27809E3D0077B8CC /* RedditView.swift */; };
+		5C1D9F0227809E3D0077B8CC /* HomeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFF27809E3D0077B8CC /* HomeFeed.swift */; };
 		5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7BB1277E2AC600A75897 /* AirtagView.swift */; };
 		5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCC44A277472B400ED40CD /* PlaceList.swift */; };
 		5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C1D9EFD27809E3D0077B8CC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5C1D9EFE27809E3D0077B8CC /* RedditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditView.swift; sourceTree = "<group>"; };
+		5C1D9EFF27809E3D0077B8CC /* HomeFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeed.swift; sourceTree = "<group>"; };
 		5C5B7BB1277E2AC600A75897 /* AirtagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtagView.swift; sourceTree = "<group>"; };
 		5CCCC44A277472B400ED40CD /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 		5CEE3950277319CD00EB5845 /* DesignRemakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignRemakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +44,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C1D9EF927809E0A0077B8CC /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D9EFE27809E3D0077B8CC /* RedditView.swift */,
+				5C1D9EFF27809E3D0077B8CC /* HomeFeed.swift */,
+				5C1D9EFD27809E3D0077B8CC /* Post.swift */,
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		5C1D9EFA27809E120077B8CC /* Airtag */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B7BB1277E2AC600A75897 /* AirtagView.swift */,
+			);
+			path = Airtag;
+			sourceTree = "<group>";
+		};
+		5C1D9EFB27809E160077B8CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE3961277319D800EB5845 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5C1D9EFC27809E1B0077B8CC /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				5CCCC44A277472B400ED40CD /* PlaceList.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
 		5CEE3947277319CD00EB5845 = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +97,12 @@
 		5CEE3952277319CD00EB5845 /* DesignRemakes */ = {
 			isa = PBXGroup;
 			children = (
+				5C1D9EFC27809E1B0077B8CC /* Places */,
+				5C1D9EFB27809E160077B8CC /* Login */,
+				5C1D9EFA27809E120077B8CC /* Airtag */,
+				5C1D9EF927809E0A0077B8CC /* Reddit */,
 				5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */,
 				5CEE3955277319CD00EB5845 /* ContentView.swift */,
-				5CEE3961277319D800EB5845 /* LoginView.swift */,
-				5CCCC44A277472B400ED40CD /* PlaceList.swift */,
-				5C5B7BB1277E2AC600A75897 /* AirtagView.swift */,
 				5CEE3957277319CE00EB5845 /* Assets.xcassets */,
 				5CEE3959277319CE00EB5845 /* Preview Content */,
 			);
@@ -148,8 +189,11 @@
 			files = (
 				5CEE3962277319D800EB5845 /* LoginView.swift in Sources */,
 				5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */,
+				5C1D9F0127809E3D0077B8CC /* RedditView.swift in Sources */,
 				5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */,
+				5C1D9F0027809E3D0077B8CC /* Post.swift in Sources */,
 				5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */,
+				5C1D9F0227809E3D0077B8CC /* HomeFeed.swift in Sources */,
 				5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
