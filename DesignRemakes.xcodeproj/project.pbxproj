@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18685A28F9E8310038BD5B /* AbstractInvestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18685928F9E8310038BD5B /* AbstractInvestingView.swift */; };
 		5C1D9F0027809E3D0077B8CC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFD27809E3D0077B8CC /* Post.swift */; };
 		5C1D9F0127809E3D0077B8CC /* RedditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFE27809E3D0077B8CC /* RedditView.swift */; };
 		5C1D9F0227809E3D0077B8CC /* HomeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9EFF27809E3D0077B8CC /* HomeFeed.swift */; };
 		5C1D9F0527809FB90077B8CC /* BankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D9F0427809FB90077B8CC /* BankingView.swift */; };
 		5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7BB1277E2AC600A75897 /* AirtagView.swift */; };
+		5C5D830E280700CD0084EBAF /* ManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D830D280700CD0084EBAF /* ManagementView.swift */; };
 		5C7428D627C560F200898A5D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7428D527C560F200898A5D /* CalendarView.swift */; };
 		5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCC44A277472B400ED40CD /* PlaceList.swift */; };
 		5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */; };
@@ -22,11 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C18685928F9E8310038BD5B /* AbstractInvestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractInvestingView.swift; sourceTree = "<group>"; };
 		5C1D9EFD27809E3D0077B8CC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5C1D9EFE27809E3D0077B8CC /* RedditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditView.swift; sourceTree = "<group>"; };
 		5C1D9EFF27809E3D0077B8CC /* HomeFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeed.swift; sourceTree = "<group>"; };
 		5C1D9F0427809FB90077B8CC /* BankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingView.swift; sourceTree = "<group>"; };
 		5C5B7BB1277E2AC600A75897 /* AirtagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtagView.swift; sourceTree = "<group>"; };
+		5C5D830D280700CD0084EBAF /* ManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementView.swift; sourceTree = "<group>"; };
 		5C7428D527C560F200898A5D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		5CCCC44A277472B400ED40CD /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 		5CEE3950277319CD00EB5845 /* DesignRemakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignRemakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C18685828F9E81F0038BD5B /* AbstractInvesting */ = {
+			isa = PBXGroup;
+			children = (
+				5C18685928F9E8310038BD5B /* AbstractInvestingView.swift */,
+			);
+			path = AbstractInvesting;
+			sourceTree = "<group>";
+		};
 		5C1D9EF927809E0A0077B8CC /* Reddit */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +102,14 @@
 			path = Banking;
 			sourceTree = "<group>";
 		};
+		5C5D830C280700C10084EBAF /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D830D280700CD0084EBAF /* ManagementView.swift */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
 		5C7428D427C560EA00898A5D /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +137,8 @@
 		5CEE3952277319CD00EB5845 /* DesignRemakes */ = {
 			isa = PBXGroup;
 			children = (
+				5C18685828F9E81F0038BD5B /* AbstractInvesting */,
+				5C5D830C280700C10084EBAF /* Management */,
 				5C7428D427C560EA00898A5D /* Calendar */,
 				5C1D9F0327809F2C0077B8CC /* Banking */,
 				5C1D9EFC27809E1B0077B8CC /* Places */,
@@ -217,8 +239,10 @@
 				5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */,
 				5C1D9F0027809E3D0077B8CC /* Post.swift in Sources */,
 				5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */,
+				5C18685A28F9E8310038BD5B /* AbstractInvestingView.swift in Sources */,
 				5C1D9F0227809E3D0077B8CC /* HomeFeed.swift in Sources */,
 				5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */,
+				5C5D830E280700CD0084EBAF /* ManagementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
