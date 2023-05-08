@@ -15,6 +15,7 @@
 		5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7BB1277E2AC600A75897 /* AirtagView.swift */; };
 		5C5D830E280700CD0084EBAF /* ManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D830D280700CD0084EBAF /* ManagementView.swift */; };
 		5C7428D627C560F200898A5D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7428D527C560F200898A5D /* CalendarView.swift */; };
+		5CA53A7B2A08DA3000CD067E /* JobOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA53A7A2A08DA3000CD067E /* JobOffers.swift */; };
 		5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCC44A277472B400ED40CD /* PlaceList.swift */; };
 		5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */; };
 		5CEE3956277319CD00EB5845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3955277319CD00EB5845 /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 		5C5B7BB1277E2AC600A75897 /* AirtagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtagView.swift; sourceTree = "<group>"; };
 		5C5D830D280700CD0084EBAF /* ManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementView.swift; sourceTree = "<group>"; };
 		5C7428D527C560F200898A5D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		5CA53A7A2A08DA3000CD067E /* JobOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOffers.swift; sourceTree = "<group>"; };
 		5CCCC44A277472B400ED40CD /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 		5CEE3950277319CD00EB5845 /* DesignRemakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignRemakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEE3953277319CD00EB5845 /* DesignRemakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRemakesApp.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
+		5CA53A792A08DA2200CD067E /* JobOffers */ = {
+			isa = PBXGroup;
+			children = (
+				5CA53A7A2A08DA3000CD067E /* JobOffers.swift */,
+			);
+			path = JobOffers;
+			sourceTree = "<group>";
+		};
 		5CEE3947277319CD00EB5845 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +147,7 @@
 		5CEE3952277319CD00EB5845 /* DesignRemakes */ = {
 			isa = PBXGroup;
 			children = (
+				5CA53A792A08DA2200CD067E /* JobOffers */,
 				5C18685828F9E81F0038BD5B /* AbstractInvesting */,
 				5C5D830C280700C10084EBAF /* Management */,
 				5C7428D427C560EA00898A5D /* Calendar */,
@@ -239,6 +250,7 @@
 				5CEE3954277319CD00EB5845 /* DesignRemakesApp.swift in Sources */,
 				5C1D9F0027809E3D0077B8CC /* Post.swift in Sources */,
 				5C5B7BB2277E2AC600A75897 /* AirtagView.swift in Sources */,
+				5CA53A7B2A08DA3000CD067E /* JobOffers.swift in Sources */,
 				5C18685A28F9E8310038BD5B /* AbstractInvestingView.swift in Sources */,
 				5C1D9F0227809E3D0077B8CC /* HomeFeed.swift in Sources */,
 				5CCCC44B277472B400ED40CD /* PlaceList.swift in Sources */,
